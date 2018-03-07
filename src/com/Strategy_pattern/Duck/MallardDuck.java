@@ -1,4 +1,4 @@
-package com.Strategy_pattern;
+package com.Strategy_pattern.Duck;
 
 public class MallardDuck extends Duck {
     public MallardDuck(){
