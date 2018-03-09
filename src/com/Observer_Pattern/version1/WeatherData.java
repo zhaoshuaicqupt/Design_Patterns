@@ -1,4 +1,4 @@
-package com.Observer_Pattern;
+package com.Observer_Pattern.version1;
 
 import java.util.ArrayList;
 
@@ -37,6 +37,7 @@ public class WeatherData implements Subject {
     public void measurementsChanged(){
         notifyObeservers();
     }
+
     public void setMeasurements(float temp,float humidity,float pressure){
         this.temp=temp;
         this.humidity=humidity;
